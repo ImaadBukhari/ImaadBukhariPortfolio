@@ -1,4 +1,4 @@
-# Hi I'm Imaad!
+# IMU Based Approach
 
 I'm an Electrical Engineering major with a minor in Applied AI studying at McGill University. I'm also the co-founder of [OmniPlane](https://omni-plane.com/) where we're building a stylus pen for AR/VR headsets. 
 
