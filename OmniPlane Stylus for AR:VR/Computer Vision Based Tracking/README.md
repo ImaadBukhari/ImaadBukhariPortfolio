@@ -1,20 +1,14 @@
-# Hi I'm Imaad!
+# Computer Vision Based Tracking
 
-I'm an Electrical Engineering major with a minor in Applied AI studying at McGill University. I'm also the co-founder of [OmniPlane](https://omni-plane.com/) where we're building a stylus pen for AR/VR headsets. 
+To track a stylus pen in 3D space, we largely made use of open source computer vision models. 
 
-### What I build
+### HSV Masking
 
-I’m interested in building AI systems that actually *do something* — not just in theory, but out in the real world.
+We used a color based mask to isolate an anchor point on the stylus pen and used this to track it throughout video frames with a Lucas_kanade based approach. 
 
-A lot of my work has focused on applying machine learning to hardware — from tracking a stylus in space using computer vision, IMU sensors, and sensor fusion, to developing embedded software that lets those systems run smoothly. I've also explored areas like realistic image synthesis, other computer vision techniques, and motion prediction as part of both my academic work and personal projects.
+![purple_detection_comparison](https://github.com/user-attachments/assets/e3e3bbf7-feb6-4fb7-adcb-21b096b53bb7)
 
-###  Projects
 
-> Check out the pinned repositories on my profile for highlights, or explore more below. Each project comes with a README explaining the motivation, approach, and results.
+###  Stereo Optics
 
-Some of the areas I’ve worked in:
-- **Computer Vision**
-- **IMU Tracking**
-- **Embedded systems**
-- **iOS tools for data collection**
-- **Realistic image synthesis**
+We added stereo optics to this to be able to account for depth and track the stylus pen in 3D space. 
