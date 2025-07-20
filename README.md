@@ -6,8 +6,11 @@ A precision stylus pen system designed for AR/VR headsets, enabling natural draw
 Our stylus system tracks position and orientation in 3D space through a sophisticated multi-sensor approach:
 
 Computer Vision: Real-time tracking using cameras on the AR/VR headset to visually locate and follow the stylus
+
 IMU Sensors: High-frequency inertial measurement units provide motion data for responsive tracking between visual updates
+
 Sensor Fusion: Advanced algorithms combine visual and inertial data to maintain accurate tracking even when the stylus moves outside the camera's field of view
+
 Embedded Systems: Custom firmware manages sensor data processing and wireless communication with minimal latency
 
 # Technical Implementation
