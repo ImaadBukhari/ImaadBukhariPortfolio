@@ -1,7 +1,8 @@
 # AR/VR Stylus Technology
 
 A precision stylus pen system designed for AR/VR headsets, enabling natural drawing and interaction in mixed reality environments. This project combines multiple technologies to achieve accurate 6DOF tracking and seamless integration with virtual worlds.
-How It Works
+
+# How It Works
 Our stylus system tracks position and orientation in 3D space through a sophisticated multi-sensor approach:
 
 Computer Vision: Real-time tracking using cameras on the AR/VR headset to visually locate and follow the stylus
