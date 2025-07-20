@@ -1,20 +1,30 @@
-# Hi I'm Imaad!
+#AR/VR Stylus Technology
 
-I'm an Electrical Engineering major with a minor in Applied AI studying at McGill University. I'm also the co-founder of [OmniPlane](https://omni-plane.com/) where we're building a stylus pen for AR/VR headsets. 
+A precision stylus pen system designed for AR/VR headsets, enabling natural drawing and interaction in mixed reality environments. This project combines multiple technologies to achieve accurate 6DOF tracking and seamless integration with virtual worlds.
+How It Works
+Our stylus system tracks position and orientation in 3D space through a sophisticated multi-sensor approach:
 
-### What I build
+Computer Vision: Real-time tracking using cameras on the AR/VR headset to visually locate and follow the stylus
+IMU Sensors: High-frequency inertial measurement units provide motion data for responsive tracking between visual updates
+Sensor Fusion: Advanced algorithms combine visual and inertial data to maintain accurate tracking even when the stylus moves outside the camera's field of view
+Embedded Systems: Custom firmware manages sensor data processing and wireless communication with minimal latency
 
-I’m interested in building AI systems that actually *do something* — not just in theory, but out in the real world.
+#Technical Implementation
 
-A lot of my work has focused on applying machine learning to hardware — from tracking a stylus in space using computer vision, IMU sensors, and sensor fusion, to developing embedded software that lets those systems run smoothly. I've also explored areas like realistic image synthesis, other computer vision techniques, and motion prediction as part of both my academic work and personal projects.
+The system integrates several key components:
+###Computer Vision Pipeline
+Real-time object detection and pose estimation to identify stylus position and orientation from headset cameras.
+###IMU Tracking System
+Gyroscope and accelerometer data processing for continuous motion tracking and gesture recognition.
+###Embedded Software
+Low-level firmware optimized for real-time performance, handling sensor fusion algorithms and wireless data transmission.
+###iOS Data Collection Tools
+Development utilities for calibration, testing, and performance analysis during system development.
 
-###  Projects
+#Applications
+This technology enables:
 
-> Check out the pinned repositories on my profile for highlights, or explore more below. Each project comes with a README explaining the motivation, approach, and results.
-
-Some of the areas I’ve worked in:
-- **Computer Vision**
-- **IMU Tracking**
-- **Embedded systems**
-- **iOS tools for data collection**
-- **Realistic image synthesis**
+Natural drawing and sketching in 3D space
+Precise object manipulation in virtual environments
+Intuitive UI interaction for AR/VR applications
+Professional design and modeling workflows in mixed reality
